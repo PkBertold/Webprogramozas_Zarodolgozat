@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Pics/favicon.png">
+<Title>2/12</Title>       
+
+<script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){               
+            $('.kulker').attr({
+               "href":"https://kulkertechnikum.hu/",
+               "title":"iskola",
+              });
+          });        
+      })
+
+</script>
+
+<style>
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+#container{
+    width:580px;
+    margin:0 auto;
+    text-align: center;
+}
+h1#logo{
+    width: 284px;
+    height: 95px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/c/c7/GoogleLogoSept12015.png") top left no-repeat;
+    background-size: 100%;
+    text-indent: -99999px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 580px;
+    padding: 6px;
+    margin:25px 0 10px;
+    border:solid 1px #ccc;
+    font-size:16px;
+}
+
+.kulker {
+    width: 580px;
+    padding: 6px;
+    margin:25px 0 10px;
+    border:solid 1px #ccc;
+    font-size:16px;
+}
+
+input[type="text"]:hover {
+    border-color: #aaa;
+}
+
+.kulker {
+    border-color: #aaa;
+}
+
+input[type="submit"] {
+    background: #eee;
+    color: #333;
+    width: 132px;
+    padding: 6px;
+    margin:25px 8px 10px 0;
+    border:solid 0px #ddd;
+    font-size:14px;
+    font-family: Arial, sans-serif;
+    font-weight: bold; 
+    border:solid 0.5px #ddd;
+}
+
+.kulker {
+    background: #eee;
+    color: #333;
+    width: 132px;
+    padding: 6px;
+    margin:25px 8px 10px 0;
+    border:solid 0px #ddd;
+    font-size:14px;
+    font-family: Arial, sans-serif;
+    font-weight: bold; 
+    border:solid 0.5px #ddd;
+}
+
+input[type="submit"]:hover {
+    border-color: #ccc;
+    border:solid 1px #ccc;
+    cursor: pointer;
+}
+
+.kulker {
+    border-color: #ccc;
+    border:solid 1px #ccc;
+    cursor: pointer;
+}
+
+small {
+    margin: 0 auto;
+    font-size: 12px;
+}
+a:link, a:visited {
+    color: dodgerblue;
+}
+nav#header{
+    text-align:right;
+    padding: 20px;
+}
+nav#header ul li{
+    display:inline;    
+}
+
+nav#header ul li a:link, 
+nav#header ul li a:visited,
+footer nav ul li a:link,
+footer nav ul li a:visited{
+    color: #555;
+    text-decoration: none;
+    padding:11px;
+}
+nav#header ul li a:hover,
+footer nav ul li a:hover{
+    text-decoration:underline
+} 
+footer{
+    background: #eee;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer nav{
+    padding: 0px;
+    border-top:solid 1px #ccc;
+}
+nav ul li{
+    display: inline;
+}
+
+footer nav ul.right-links{
+    float:right
+}
+footer nav ul.left-links{
+    float:left
+}
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+    }
+
+    a{
+    text-decoration: none;
+    }
+
+</style>
+</head>
+
+
+<body>
+        
+<nav id="header">
+    <ul>
+        <li><a href="1.html">Előző</a></li>
+        <li><a href="index.html">Gmail</a></li>
+        <li><a href="index.html">Images</a></li>
+        <li><a href="index.html">Apps</a></li>
+        <li><a href="3.html">következő</a></li>
+    </ul>                
+</nav>
+        
+<div id="container">
+    <h1 id="logo">Google</h1>
+        
+
+        <input type="text">
+        <button class="kulker" id="btn1"><a href="https://kulkertechnikum.hu/">Google search</a></button>
+        <button class="kulker" id="btn2"><a href="https://kulkertechnikum.hu/">Feeling Lucky</a></button>
+<!--
+Ez alatt a feladat alatt egy egész doboz cigi majdnem elfogyott
+-->
+
+<!--
+        <input type="submit" value="Google search">
+        <input type="submit" value="Feeling Lucky">
+-->
+        
+    <p><small>Google.com offered in:<a href="https://www.google.hu/"> Magyar</a></small></p>
+</div>
+        
+<footer>
+<nav class="clearfix">
+    <ul class="left-links">
+        <li><a href="index.html">Advertising</a></li>
+        <li><a href="index.html">Business</a></li>
+        <li><a href="index.html">About</a></li>
+    </ul>        
+    <ul class="right-links"> 
+        <li><a href="index.html">Privacy</a></li>
+        <li><a href="index.html">Terms</a></li>
+        <li><a href="index.html">Settings</a></li>
+    </ul>
+                        
+</nav>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="Pics/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6/12</title>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $("#div1").css("background-color", "yellow");
+            });
+        });
+    </script>
+    
+    <style>
+        .Choose{
+        background-color: lightblue;
+        text-decoration: none;
+        }
+
+        a{
+        text-decoration: none;
+        }
+
+        .Home{
+        background-color: lightgrey;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Welcome to My Homepage</h1>
+    
+    <p>This is a paragraph.</p>
+    
+    <div id="div1"style="border: 1px solid black;">
+      <p>A paragraph in a div.</p>
+      <p>Another paragraph in a div.</p>
+    </div>
+    <br>
+    
+    <div id="div2" style="border: 1px solid black;">
+      <p>A paragraph in another div.</p>
+      <p>Another paragraph in another div.</p>
+    </div>
+    <br>
+    
+    <div id="div3" style="border: 1px solid black;">
+      <p>A paragraph in another div.</p>
+      <p>Another paragraph in another div.</p>
+    </div>
+    
+    
+    <button id="btn1">Sárgít</button>
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <button class="Choose"><a href="5a.html">Előző</a></button>
+    <button class="Home"><a href="index.html">Home</a></button>
+    <button class="Choose"><a href="6a.html">Következő</a></button>
+    
+    </body>
+    </html>

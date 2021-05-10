@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="Pics/favicon.png">
+    <title>5/12</title>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#btn1").click(function(){
+            $("input").prop('disabled', false);
+        });
+});     
+</script>
+
+<style>
+    .Choose{
+    background-color: lightblue;
+    text-decoration: none;
+    }
+
+    a{
+    text-decoration: none;
+    }
+
+    .Home{
+    background-color: lightgrey;
+    }
+</style>
+
+<body>
+<!--
+    $("input").prop('disabled', true);
+    $("input").prop('disabled', false);
+-->
+    <input type="text" disabled>
+    <button id="btn1">Enable Editing</button>
+
+<!--
+Ladányi Bertold 2021.05.10 02:31
+Az lenne még itt a koncepcióm, hogy a gomb megnyomására megváltozik a Gomb neve: "Disable Editing"-re amit ha
+megnyomunk akkor újra letilthatjuk a szöveg mező tartalmát. Így felváltva ki és be kapcsolhatjuk a szerkeszthetőséget rajta.
+Tudom, hogy nem ilyesmi volt a feladat de én így értelmeztem és ez is érdekesnek tűnt :)
+-->
+
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<button class="Choose"><a href="4b.html">Előző</a></button>
+<button class="Home"><a href="index.html">Home</a></button>
+<button class="Choose"><a href="5a.html">Következő</a></button>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Pics/favicon.png">
+    <title>12/12</title>
+    <script>
+        $(document).ready(function(){
+            $("#div1").click(function(){
+                $("#div2").css("display", "block")
+                $("#div2").show();
+            });
+            $("#div2").click(function(){
+                $("#div3").css("display", "block")
+                $("#div3").show();
+            });
+        });
+    </script>
+
+    <style>
+        #div1{
+            padding: 5px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: solid 1px #c3c3c3;
+        }
+
+        #div2{
+            padding: 50px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: solid 1px #c3c3c3;
+            display: none;
+        }
+
+        #div3{
+            padding: 50px;
+            text-align: center;
+            background-color: #e5eecc;
+            border: solid 1px #c3c3c3;
+            display: none;
+        }
+
+        body{
+            max-width: 500px;
+            padding: 10px;
+            margin: 10px auto 0 auto;
+            background-color: lightgrey;
+        }
+
+        .Choose{
+            background-color: lightblue;
+            text-decoration: none;
+        }
+
+        .Home{
+            background-color: lightseagreen;
+        }
+
+        a{
+            text-decoration: none;  
+        }
+
+        .Home{
+        background-color: lightgrey;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="div1">1</div>
+    <div id="div2">2</div>
+    <div id="div3">Peekaboo!!!</div>
+
+<!--
+Ladányi Bertold 2021.05.10 19:02
+A többit elfelejtettem timestamp-elni
+-->
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<button class="Choose"><a href="11.html">Előző</a></button>
+<button class="Home"><a href="index.html">Home</a></button>
+<button class="Choose"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO">Következő</a></button>
+
+</body>
+</html>
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="Pics/favicon.png">
+    <title>11/12</title>
+
+    <script>
+    $(document).ready(function(){
+      $("#btn1").click(function(){
+        $("ol").append("<li>.</li>");
+        $("ol").append("<li>.</li>");
+        $("ol").append("<li>.</li>");
+      });
+    });
+    </script>
+
+    <style>
+        body{
+        max-width: 500px;
+        padding: 10px;
+        margin: 10px auto 0 auto;
+        background-color: lightgrey;
+        }
+
+        #div1{
+        float: left;
+        padding: 5px;
+        text-align: center;
+        background-color: #e5eecc;
+        border: solid 1px #c3c3c3;
+        }
+
+        .Choose{
+            background-color: lightblue;
+            text-decoration: none;
+        }
+
+        #btn1{
+            padding: 12px 12px;
+        }
+
+        a{
+        text-decoration: none;
+        }
+
+        .Home{
+        background-color: lightgrey;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div1">
+    <p>Pálinkás Jóreggelt!</p>
+    
+    <ol>
+    </ol>
+    <li>↓↓↓</li>
+    <button id="btn1">3 új sor hozzáadása</button>
+    </div>
+
+<!--
+Ladányi Bertold 2021.05.10 19:12
+-->
+
+<button class="Choose"><a href="10.html">Előző</a></button>
+<button class="Home"><a href="index.html">Home</a></button>
+<button class="Choose"><a href="12.html">Következő</a></button>
+
+</body>
+</html>
