@@ -13,10 +13,10 @@
         $("#btn1").click(function(){
             $("input").prop('disabled', false);
         });
-        $("#btn2").click(function () {
-            $("input").print();
-});
-});     
+        $("#btn2").click(function(){
+            alert("Value: " + $("#szoveg").val());
+  });
+});   
 </script>
 
 <style>
@@ -47,7 +47,7 @@
     $("input").prop('disabled', true);
     $("input").prop('disabled', false);
 -->
-    <input type="text" disabled>
+    <input type="text" id="szoveg" disabled>
     <button id="btn1">Enable Editing</button>
     <button id="btn2">Print</button>
     <p></p>
